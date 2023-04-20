@@ -1,9 +1,12 @@
+{% extends "main/base.html" %}
 {% block title %} ынах {% endblock %}
 
 {%block content %}
+{% load static %}
     <div class="container">
 
        <p>это сайт</p>
-      <p>priv<br>priv</p>
+      <p>p<br>p</p>
+        <img src="{% static "image/1.jpg" %}" width="300" height="100">
     </div>
 {% endblock %}
